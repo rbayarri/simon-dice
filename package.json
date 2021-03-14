@@ -11,6 +11,10 @@
     "url": "git+https://github.com/rbayarri/simon-dice.git"
   },
   "author": "Renzo Bayarri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/r-argentina-programa/simon-dice/issues"
+  },
   "homepage": "https://github.com/rbayarri/simon-dice#readme",
   "dependencies": {
     "@popperjs/core": "^2.6.0",
