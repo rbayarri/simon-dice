@@ -1,0 +1,19 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Juego de simón dice realizado con javascript durante el curso de r/Argentina Programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbayarri/simon-dice.git"
+  },
+  "author": "Renzo Bayarri",
+  "homepage": "https://github.com/rbayarri/simon-dice#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.6.0",
+    "bootstrap": "^5.0.0-beta2"
+  }
+}

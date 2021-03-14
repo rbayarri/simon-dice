@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simón Dice</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <style>
+    .cuadro{
+      height: 200px;
+      opacity: 0.5;
+      transition: all 1s;
+    }
+    #cuadro1{
+      background-color: blue;
+    }
+    #cuadro2{
+      background-color: green;
+    }
+    #cuadro3{
+      background-color: chocolate;
+    }
+    #cuadro4{
+      background-color: darkred;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <p id="estado" class="alert alert-primary m-0" role="alert">Tocá "Empezar para jugar"</p>
+      </div>
+      <div class="col-sm fw-bold d-flex align-items-center">
+        <p>Ronda: <span id="nroRonda">0</span></p>
+      </div>
+      <div class="col-sm d-flex align-items-center"><button class="btn btn-primary" id="empieza">Empezar</button></div>
+    </div>
+    <div class="row mt-2">
+      <div id="cuadro1" class="cuadro col-sm m-2"></div>
+      <div id="cuadro2" class="cuadro col-sm m-2"></div>
+    </div>
+    <div class="row">
+      <div id="cuadro3" class="cuadro col-sm m-2"></div>
+      <div id="cuadro4" class="cuadro col-sm m-2"></div>
+    </div>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>
