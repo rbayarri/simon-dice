@@ -1,7 +1,8 @@
 # Simón Dice
 Juego de Simón dice realizado con Javascript durante el curso de r/Argentina Programa
 
-## Instalación
+Realizado con HTML5, CSS3, Javascript y Bootstrap
 
-Correr
-`npm install`
+## Acceso a la página
+
+https://rbayarri.github.io/simon-dice/
